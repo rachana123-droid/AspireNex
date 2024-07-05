@@ -5,7 +5,7 @@ def chatbot():
 
     while True:
         user_input = input("You: ").lower()
-
+        #using if-else conditions
         if user_input == "hello" or user_input == "hi":
             print("Bot: Hello! How can I assist you today?")
         elif user_input == "how are you":
